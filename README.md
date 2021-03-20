@@ -9,4 +9,4 @@ This work is devoted to God.
 
 ## Online version
 
-[Golden Ratio Calculator](https://sanjosolutions.github.io/golden-ratio/index.html)
+[Golden Ratio Calculator](https://sanjosolutions.github.io/golden-ratio/)
