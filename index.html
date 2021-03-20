@@ -28,7 +28,7 @@
     event.preventDefault()
     const width = parseInt($input.value, 10)
     const {a, b} = calculateGoldenRatioSizes(width)
-    $output.textContent = a + ' ' + b
+    $output.innerHTML = a + ' ' + b + '<br>' + $output.innerHTML
   })
 </script>
 </body>
