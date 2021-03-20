@@ -6,4 +6,7 @@ This work is devoted to God.
 > node index.js 1024
 633
 ```
-~~~~
+
+## Online version
+
+[Golden Ratio Calculator](https://sanjosolutions.github.io/golden-ratio/)

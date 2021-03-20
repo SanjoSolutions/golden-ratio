@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Golden Ratio Calculator</title>
+  <style>
+    form {
+        margin-bottom: 0.2rem;
+    }
+  </style>
+</head>
+<body>
+<form>
+  <input type="number">
+  <button type="submit">Calculate</button>
+</form>
+<div id="output"></div>
+<script type="module">
+  import { calculateGoldenRatioSizes } from './calculateGoldenRatioSizes.js'
+
+  const $form = document.querySelector('form')
+  const $input = document.querySelector('input')
+  const $output = document.getElementById('output')
+
+  $form.addEventListener('submit', function (event) {
+    event.preventDefault()
+    const width = parseInt($input.value, 10)
+    const {a, b} = calculateGoldenRatioSizes(width)
+    $output.textContent = a + ' ' + b
+  })
+</script>
+</body>
+</html>
