@@ -6,3 +6,4 @@ This work is devoted to God.
 > node index.js 1024
 633
 ```
+~~~~
