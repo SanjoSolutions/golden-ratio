@@ -29,6 +29,7 @@
     const width = parseInt($input.value, 10)
     const {a, b} = calculateGoldenRatioSizes(width)
     $output.innerHTML = a + ' ' + b + '<br>' + $output.innerHTML
+    $input.value = ''
   })
 </script>
 </body>
