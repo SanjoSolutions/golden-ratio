@@ -1,8 +1,8 @@
-export function calculateGoldenRatioSizes(width) {
+export function calculateGoldenRatioSizes(length) {
   const goldenRatio = 1.61803398875
-  const a = width / goldenRatio
+  const a = length / goldenRatio
   const roundedA = Math.round(a)
-  const roundedB = width - roundedA
+  const roundedB = length - roundedA
   return {
     a: roundedA,
     b: roundedB,
